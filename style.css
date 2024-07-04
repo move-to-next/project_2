@@ -1927,6 +1927,8 @@ footer .footer_sns ul li a img{
     footer .footer_width{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
         align-content: center;
         width: 90vw;
         height: 16vh;
@@ -1953,10 +1955,12 @@ footer .footer_sns ul li a img{
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
+        width: 45vw;
         height: 10vh;
     }
     footer .footer_width .footer_about{
         display: block;
+        width: 45vw;
         height: 10vh;
     }
     footer .footer_width .footer_about ul{
